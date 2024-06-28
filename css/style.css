@@ -204,7 +204,7 @@ ul li {
     width: 100px;
   }
   .copyright p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .footer-icons a {
     padding-right: 6px;
@@ -220,6 +220,9 @@ ul li {
   }
   .menu{
     display: none;
+  }
+  .footer-sec .d-flex{
+    flex-direction: column;
   }
 }
 
