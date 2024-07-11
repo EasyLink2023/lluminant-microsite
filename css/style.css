@@ -82,6 +82,8 @@ ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #e6e6e6;
+  padding: 1.25em 0;
 }
 .venue-sect {
   text-align: center;
@@ -144,6 +146,12 @@ ul li {
 .form-input {
     padding: 1em;
 }
+#Team{
+  background-repeat: round;
+}
+ol > li{
+  text-align: justify;
+}
 @media (min-width: 1200px) {
   
   .sect-bg,
@@ -175,6 +183,23 @@ ul li {
   .content p{
     font-size: 15px;
   }
+}
+@media (min-width: 921px) and (max-width: 991px) {
+  .design-plain-txt h3{
+    height: 60px;
+  }
+
+  
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* .design-plain-txt h3{
+    height: 62px;
+  } */
+  .design-plain-txt{
+    height: 240px;
+  }
+
+  
 }
 @media (max-width: 767.9px) {
     .sect-bg,
