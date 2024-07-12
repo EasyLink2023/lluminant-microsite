@@ -25,10 +25,6 @@ body::-webkit-scrollbar,
 .sect-bg {
   background-image: url("/images/home-banner.jpg");
 }
-.logo img {
-  max-width: 100%;
-  height: auto;
-}
 .nav-link {
   font-weight: 500;
 }
@@ -166,9 +162,30 @@ ol > li{
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.5px) {
-}
+@media (min-width: 768px) and (max-width:991.5px) {
+  .cols-l{
+    flex: 0 0 auto;
+    width: 45% !important;
 
+  }
+  .cols-r{
+    flex: 0 0 auto;
+    width: 50% !important;
+
+  }
+}
+@media(min-width:992px){
+  .cols-l{
+    flex: 0 0 auto;
+    width: 33.33333333% !important;
+
+  }
+  .cols-r{
+    flex: 0 0 auto;
+    width: 66.66666667% !important;
+
+  }
+}
 @media (min-width: 768px) and (max-width: 1199px) {
     .sect-bg,
   #Home {
@@ -249,10 +266,40 @@ ol > li{
   .footer-sec .d-flex{
     flex-direction: column;
   }
+  .cols-l{
+    flex: 0 0 auto;
+    width: 100% !important;
+
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .logo-img {
+    max-width: 33.33%;
+    height: auto;
+  }
+  .lluminant-logo{
+    max-width: 29% !important;
+  }
 }
 
 @media (min-width: 768px) {
-    
-
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-img {
+    max-width: 50%;
+    height: auto;
+  }
+  .lluminant-logo{
+    max-width: 38% !important;
+  }
+  
 }
 
